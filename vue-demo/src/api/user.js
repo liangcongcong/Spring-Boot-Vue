@@ -33,3 +33,11 @@ export const UserDelAction = (parameter) => {
   })
 }
 
+export const UserLoginAction = (parameter) => {
+  return HttpRequest.request({
+    url: 'login/',
+    method: 'post',
+    params: parameter
+  })
+}
+

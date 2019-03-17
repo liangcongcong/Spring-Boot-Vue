@@ -3,7 +3,7 @@ package com.lcc.demo.mapper;
 import com.lcc.demo.model.User;
 import org.apache.ibatis.annotations.*;
 import org.mapstruct.Mapper;
-import org.springframework.stereotype.Service;
+
 
 import java.util.List;
 
